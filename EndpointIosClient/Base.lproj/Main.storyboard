@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +21,6 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BcP-Ei-oOT">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="203" id="1sz-fZ-g5h"/>
                                     <constraint firstAttribute="height" constant="203" id="OoJ-os-kb7"/>
@@ -43,13 +43,11 @@
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Question" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bKT-gb-Nnp">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cky-OF-xMW">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="76" id="nDK-uP-jbB"/>
                                 </constraints>
@@ -69,7 +67,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="cky-OF-xMW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0oZ-vg-KKS"/>
@@ -93,11 +90,6 @@
                                 <exclude reference="cky-OF-xMW"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="5nN-Ct-xGe"/>
-                                <exclude reference="Bmq-hK-MH3"/>
-                                <exclude reference="dE2-Fb-QES"/>
-                                <exclude reference="wWL-uh-Ttf"/>
-                                <exclude reference="wx6-Eh-QGL"/>
                                 <exclude reference="4qB-qr-X31"/>
                                 <exclude reference="WmG-al-W53"/>
                                 <exclude reference="h0R-o8-8dy"/>
@@ -106,6 +98,11 @@
                                 <exclude reference="kGv-X4-kuv"/>
                                 <exclude reference="vaB-X8-PV2"/>
                                 <exclude reference="vrf-ej-PtF"/>
+                                <exclude reference="5nN-Ct-xGe"/>
+                                <exclude reference="Bmq-hK-MH3"/>
+                                <exclude reference="dE2-Fb-QES"/>
+                                <exclude reference="wWL-uh-Ttf"/>
+                                <exclude reference="wx6-Eh-QGL"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -115,11 +112,6 @@
                                 <include reference="cky-OF-xMW"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="5nN-Ct-xGe"/>
-                                <exclude reference="Bmq-hK-MH3"/>
-                                <include reference="dE2-Fb-QES"/>
-                                <include reference="wWL-uh-Ttf"/>
-                                <exclude reference="wx6-Eh-QGL"/>
                                 <exclude reference="4qB-qr-X31"/>
                                 <include reference="WmG-al-W53"/>
                                 <include reference="h0R-o8-8dy"/>
@@ -128,6 +120,11 @@
                                 <exclude reference="kGv-X4-kuv"/>
                                 <include reference="vaB-X8-PV2"/>
                                 <include reference="vrf-ej-PtF"/>
+                                <include reference="5nN-Ct-xGe"/>
+                                <exclude reference="Bmq-hK-MH3"/>
+                                <include reference="dE2-Fb-QES"/>
+                                <include reference="wWL-uh-Ttf"/>
+                                <exclude reference="wx6-Eh-QGL"/>
                             </mask>
                         </variation>
                     </view>
